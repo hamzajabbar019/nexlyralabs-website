@@ -23,14 +23,17 @@ export function Footer() {
                 e.preventDefault();
                 handleNavClick('#home');
               }}
-              className="text-lg font-semibold tracking-tight text-white hover:text-blue-400 transition-colors"
+              className="inline-flex items-center gap-2.5 text-lg font-semibold tracking-tight text-white hover:text-blue-400 transition-colors"
             >
-              {siteConfig.companyName}
+              <img
+                src="/assets/aistudio/logo_719b0165.png"
+                alt="Nexlyra Labs logo"
+                className="w-8 h-8 rounded-lg object-cover shrink-0 border border-[#1E2E4D]"
+              />
+              <span>{siteConfig.companyName}</span>
             </a>
             <p className="text-sm text-blue-400 font-medium">{siteConfig.tagline}</p>
-            <p className="text-xs text-slate-400">
-              Founded by {siteConfig.founderName} · {siteConfig.location} · {siteConfig.serving}
-            </p>
+            <p className="text-xs text-slate-400">Founded by {siteConfig.founderName}</p>
           </div>
 
           <nav aria-label="Footer navigation" className="flex flex-wrap items-center gap-6">

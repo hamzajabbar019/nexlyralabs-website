@@ -78,14 +78,11 @@ export function Navbar({ onNavigateContact }: NavbarProps) {
           }}
           className="inline-flex items-center gap-2.5 text-lg font-semibold tracking-tight text-white whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-md px-1"
         >
-          <span
-            className="inline-flex items-center justify-center w-7 h-7 rounded-md bg-blue-600/15 border border-blue-500/40 text-blue-400"
-            aria-hidden="true"
-          >
-            <svg viewBox="0 0 24 24" className="w-4 h-4 fill-none stroke-current" strokeWidth="2">
-              <path d="M5 18V6l14 12V6" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-          </span>
+          <img
+            src="/assets/aistudio/logo_719b0165.png"
+            alt="Nexlyra Labs logo"
+            className="w-8 h-8 rounded-lg object-cover shrink-0 border border-[#1E2E4D]"
+          />
           <span>Nexlyra Labs</span>
         </a>
 
