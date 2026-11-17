@@ -1,0 +1,8 @@
+{
+  "name": "Nexlyra Labs",
+  "description": "Build Smarter. Grow Faster. A founder-led software development agency based in Karachi, Pakistan, serving international clients with AI automation, backend systems, web platforms, and mobile applications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
